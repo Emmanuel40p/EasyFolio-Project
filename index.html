@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>EasyFolio</title>
+  <link rel="stylesheet" href="index.css">
+
+  <link rel="stylesheet" href="mediaQueries.css">
+</head>
+
+<body>
+  <section class="BodySection">
+    <!-- HAMBURGER MENU LISTS-------------------__-- -->
+    <div class="menuBar">
+      <ul class="menu_lists" onclick="removeMenuOnClickLists()">
+        <a href="#heroSection">
+          <li id="lists">Home</li>
+        </a>
+        <a href="#aboutSection"><li id="lists">About</li></a>
+        <a href="#"><li id="lists">Resume</li></a>
+        <a href="#"><li id="lists">Portfolio</li></a>
+        <a href="#"><li id="lists">Services</li></a>
+        <a href="#"><li id="lists">Dropdown </li></a>
+        <a href="#"> <li id="lists">Contact</li></a>
+
+      </ul>
+    </div>
+    <div class="navBarBlock"></div>
+    <div class="navBar">
+      <p id="EasyFolio">EasyFolio</p>
+
+      <div id="menuBar2`">
+        <ul class="list-header">
+          <li id="lists"><a href="#heroSection" id="links">Home</a></li>
+          <li id="lists"><a href="#aboutSection" id="links">About</a></li>
+          <li id="lists"><a href="#" id="links">Portfolio</a></li>
+          <li id="lists"><a href="#" id="links">Services</a></li>
+          <li id="lists"><a href="#" id="links">Dropdown</a></li>
+          <li id="lists"><a href="#" id="links">Contact</a></li>
+        </ul>
+      </div>
+
+      <div class="icons-headers">
+
+        <a href="#"> <img src="icons/icons8-x-30.png" alt="" width="20px" height="20px" class="icons"></a>
+        <a href="#"> <img src="/icons/facebook.png" alt="" width="20px" height="20px" class="icons"></a>
+        <a href="#"> <img src="/icons/png_bypqu.png" alt="" width="20px" height="20px" class="icons"></a>
+        <a href="#"> <img src="/icons/png_wixx3.png" alt="instagram" width="20px" height="20px" class="icons"></a>
+
+        <img src="/icons/icons8-hamburger-menu-50.png" alt="hamburger menu" width="20px" height="20px"
+          class="icons  hamburgerMenu " onclick="dropDownMenu() ">
+
+        <img src="icons/cross.png.png" alt="" width="20px" height="20px" class="icons" id="cross-icon"
+          onclick="removeDdm()">
+      </div>
+    </div>
+
+
+
+
+    <section id="heroSection">
+
+      <div class="heroText">
+        <p id="Crafting">Crafting Digital Experiences with Passion</p>
+
+        <p id="Transforming">Transforming ideas into elegant solutions through creative design and innovative
+          development</p>
+        <div class="portfolio-buttons">
+          <button id="view-my-work">View My Work</button>
+          <button id="Lets-Connect">Let's Connect</button>
+        </div>
+        <span class="experience">
+          <p id="expText"><span id="years">5+</span> <br> Years Experience</p>
+          <p id="expText"><span id="projects-comp">100+</span> <br>Projects Completed</p>
+          <p id="expText"><span id="Happy">50+</span> <br> Happy Clients</p>
+
+        </span>
+        <div id="hero-circle"></div>
+        <div class="personImage">
+          <img src="/icons/profile-1.webp" alt="portfolio-image hero">
+        </div>
+        <div id="heroCircle2"></div>
+      </div>
+    </section>
+
+    <!-- ABOUT SECTION ---------------------------------------------------///// -->
+
+    <section id="aboutSection">
+      <div class="aboutDiv">
+        <h2 id="header-about">About</h2>
+        <div class="aboutDesign">
+          <svg viewBox="0 0 200 20" xmlns="http://www.w3.org/2000/svg" id="about-svg">
+            <path d="M 0,10 C 40,0 60,20 100,10 C 140,0 160,20 200,10" fill="none" stroke="currentColor"
+              stroke-width="2"></path>
+          </svg>
+
+
+        </div>
+        <p id="about-para">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel numquam natus veniam magni doloribus
+          cumque hic corporis expedita .
+        </p>
+
+
+        <div class="aboutImg">
+          <img src="icons\profile-square-2.webp" alt="" id="about-img1">
+        </div>
+
+        <p id="About-me">About Me</p>
+        <p id="ui-ux-text">UI/UX DESIGNER & WEB DEVELOPER</p>
+
+        <p
+          style=" font-weight: 100; font-size: 17.6px; font-family: serif ; color: #000000a6; padding: 12px; line-height: 27px; word-spacing: 2px;">
+          Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur
+          magni dolores eos qui ratione voluptatem sequi nesciunt.</p>
+
+        <p style="font-weight: 500; font-family: Arial, Helvetica, sans-serif; color: #000 ; padding: 10px; ">
+          Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet
+        </p>
+      </div>
+
+
+
+    </section>
+    <script src="script.js"></script>
+  </section>
+</body>
+
+</html>
