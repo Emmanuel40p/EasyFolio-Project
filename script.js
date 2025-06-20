@@ -9,7 +9,7 @@ let menu_lists = document.querySelectorAll('menu_lists')
 
 function dropDownMenu() {
 
-    // menu.setAttribute('style', 'display : block')
+    menu.setAttribute('style', 'display : block')
     hamburger.setAttribute('style', ' display : none')
     crossIcon.style.display = 'block'
 

@@ -6,6 +6,9 @@
     --surface-color: #ffffff; /* The surface color is used as a background of boxed elements within sections, such as cards, icon boxes, or other elements that require a visual separation from the global background. */
     --contrast-color: #ffffff; /* Contrast color for text, ensuring readability against backgrounds of accent, heading, or default colors. */
   }
+  
+
+
 
 
 @media (max-width : 575px ){
@@ -41,17 +44,14 @@
         visibility: visible;
     }
     #cross-icon {
-        display: block;
-        z-index: 1111;
-        
-        
+        visibility: visible;
         
     }
     .menuBar {
         width: 90%;
-        margin-top: 20px;
+        margin-top: 10px;
         z-index: 9999;
-        /* display: none; */
+        display: block;
         visibility: visible;
     }
     .menu_lists {
@@ -70,13 +70,12 @@
     #link-tag{
         color: black;
         text-decoration: none;
-        display: block;
         visibility: visible;
         
     }
     #link-tag:hover{
-        transition: all 0.3s;
-        color: var(--accent-color);
+        transition: all 1.2s;
+        color:var(--accent-color) ;
     }
     
     #lists {
