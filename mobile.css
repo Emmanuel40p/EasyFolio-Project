@@ -51,7 +51,7 @@
         width: 90%;
         margin-top: 10px;
         z-index: 9999;
-        display: block;
+        /* display: block; */
         visibility: visible;
     }
     .menu_lists {
@@ -83,6 +83,83 @@
         padding-left:29px ;
         /* padding-left: 10px; */
     }
+    #Crafting{
+        font-size: 40px;
+        line-height: 45px;
+        position: relative;
+        /* left: -29px; */
+        display: flex;
+        max-width: 65vw;
+        align-items: start;
+        text-align: center;
+        top: -30px;
+    }
+    #Transforming{
+      max-width: 29em;
+      margin-top: -12px;
+      margin-left: -20px;
+       
+    }
+    .portfolio-buttons{
+       display: grid;
+       grid-template-columns:0px;
+      grid-template-rows: 40px;
 
+    }
+    #view-my-work{
+        width: 90vw;
+        margin-left: -70px;
+    }
+    #Lets-Connect {
+        width: 90vw;
+        margin-left: -70px;
+    }
+    .experience{
+        display: grid;
+        grid-template-columns: 50px ;
+        margin-left: 20vw;
+        text-align: center;
+        position: relative;
+        
+    }
+    #years,
+    #projects-comp,
+    #Happy {
+        font-size: 39px;
+        font-weight: 700;
+        color: #0f2943;
+        position: relative;
+        left: 10px;
+    }
+    
+    .inlineText{
+        position: absolute;
+        left: -10px;
+        color: #0a0f14b9;
+    }
+    .personImage {
+        position: absolute;
+        left:-7vw;
+        top: 123vh;
+        width: 80vw;
+        height: 45vh; 
+       }
+    #hero-circle{
+        position: relative;
+        left: -12em;
+        top: 5em;
+    }
+    #heroCircle2{
+        position: relative;
+        left: 0;
+                
+        top: 5em;
+    }
+    #aboutSection{
+        position: relative;
+        top: 290px;
+        
+    }
+   
 
 }

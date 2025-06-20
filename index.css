@@ -145,8 +145,10 @@ body {
 }
 
 #view-my-work:hover {
-    transform: scale(0.95);
-    transition: .2s ease-out;
+    /* transform: trnslate(0.95); */
+    transform: translateY(-2px);
+    background-color: #e87532c9;
+    transition: 0.5s ;
     font-weight: 550;
 }
 

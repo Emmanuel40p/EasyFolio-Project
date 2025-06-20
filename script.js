@@ -3,7 +3,7 @@ let hamburger = document.querySelector('.hamburgerMenu')
 let crossIcon = document.getElementById('cross-icon')
 let icons = document.querySelector('.icons')
 let menu_lists = document.querySelectorAll('menu_lists')
-
+let lists = document.getElementById('lists')
 
 // THIS IS THE DROPDOWN MENU BAR -------------------------------------
 
@@ -27,6 +27,8 @@ function removeMenuOnClickLists() {
     crossIcon.style.display = 'none'
     hamburger.setAttribute('style', 'display : flex')
 }
+
+
 
 
 // function hoverColour(hover) {
