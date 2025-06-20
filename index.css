@@ -213,7 +213,7 @@ body {
     background-color: #e8753242;
     top: 580px;
     left: 510px;
-    animation: morphShape 20s linear infinite reverse;
+    animation: morphShape 20s linear infinite alternate-reverse ;
 
 }
 
@@ -225,7 +225,7 @@ body {
     background-color: #bbbbbb56;
     top: 290px;
     left: 80px;
-    animation: morphShape 20s linear infinite reverse;
+    animation: morphShape 8s linear infinite ;
 }
 
 

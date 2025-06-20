@@ -36,7 +36,7 @@
         display: none;
     }
     .navBarBlock{
-        height: 100px;
+        height: 90px;
     }
     #EasyFolio{
         display: flex;
@@ -64,7 +64,7 @@
         visibility: visible;
         margin-top: 30px;
         margin-left: 10px;
-        line-height: 30px;
+        line-height: 40px;
 
         /* margin-left: 201px; */
 
@@ -143,26 +143,56 @@
     .personImage {
         position: absolute;
         left:-7vw;
-        top: 123vh;
+        top: 117vh;
         width: 80vw;
         height: 45vh; 
        }
     #hero-circle{
         position: relative;
         left: -12em;
-        top: 5em;
+        
+        height: 290px;
+        width: 280px;
+        margin-top:30em ;
     }
     #heroCircle2{
         position: relative;
         margin-left: -720px; 
-         
-        margin-top:30em ;
+        
+        
     }
     #aboutSection{
         position: relative;
-        top: 100px;
+        top: -80px;
         
     }
-   
+    #header-about{
+        margin-left: 1vw;
+    }
+   #about-svg{
+        margin-left: -10vw; 
+   }
+   #about-para{
+    padding-left: 19px ;
+    padding-right: 19px;
+    line-height: 30px;
+   }
+   #about-img1{
+    width: 90vw;
+    height: 75vh;
+    margin-left: -79px;
+    margin-top: -40px;
+   }
+   .about-me-div{
+    display: block;
+    margin-left: -43em;
+    margin-top: 30em;
+    max-width: 350px;
 
+   }
+
+   .progressBar{
+    margin-top: 50em;
+
+   }
 }
