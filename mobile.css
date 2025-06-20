@@ -1,0 +1,89 @@
+:root { 
+    --background-color: #ffffff; /* Background color for the entire website, including individual sections */
+    --default-color: #0a0f14; /* Default color used for the majority of the text content across the entire website */
+    --heading-color: #0f2943; /* Color for headings, subheadings and title throughout the website */
+    --accent-color: #e87532; /* Accent color that represents your brand on the website. It's used for buttons, links, and other elements that need to stand out */
+    --surface-color: #ffffff; /* The surface color is used as a background of boxed elements within sections, such as cards, icon boxes, or other elements that require a visual separation from the global background. */
+    --contrast-color: #ffffff; /* Contrast color for text, ensuring readability against backgrounds of accent, heading, or default colors. */
+  }
+
+
+@media (max-width : 575px ){
+    *{
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+        
+     }
+     .navBar {
+        margin-top: 20px;
+        padding-top: 20px;
+        height: 9vh;
+        margin-left: 20px;
+        z-index: 1200;
+        display: flex;
+        align-items: baseline;
+        justify-content: baseline;
+        
+    }
+    #menuBar2{
+        display: none;
+    }
+    .navBarBlock{
+        height: 100px;
+    }
+    #EasyFolio{
+        display: flex;
+        left: 15px;
+
+    }
+    .hamburgerMenu{
+        visibility: visible;
+    }
+    #cross-icon {
+        display: block;
+        z-index: 1111;
+        
+        
+        
+    }
+    .menuBar {
+        width: 90%;
+        margin-top: 20px;
+        z-index: 9999;
+        /* display: none; */
+        visibility: visible;
+    }
+    .menu_lists {
+       
+        font-size: 1rem;
+        display: block; 
+        visibility: visible;
+        margin-top: 30px;
+        margin-left: 10px;
+        line-height: 30px;
+
+        /* margin-left: 201px; */
+
+    }
+
+    #link-tag{
+        color: black;
+        text-decoration: none;
+        display: block;
+        visibility: visible;
+        
+    }
+    #link-tag:hover{
+        transition: all 0.3s;
+        color: var(--accent-color);
+    }
+    
+    #lists {
+        list-style: none;
+        padding-left:29px ;
+        /* padding-left: 10px; */
+    }
+
+
+}

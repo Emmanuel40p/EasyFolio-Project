@@ -25,9 +25,15 @@
     }
 
     .navBar {
+        height: 10vh;
+        padding-left: 10px;
+        padding-top: 20px;
+        margin-left: 50px;
         margin-top: 30px;
-        width: 120vw;
-        margin-left: 60px;
+        width: 100vw;
+        display: flex;
+        justify-content: baseline;
+        align-content: baseline;
         z-index: 1200;
         position: fixed;
     }
@@ -46,11 +52,18 @@
     .menuBar {
         width: 0;
         display: none;
+        visibility: hidden;
+    }
+    #link-tag{
+        visibility:hidden;
     }
     #menuBar2{
         position: relative;
         
         
+    }
+    .menu_lists{
+        visibility: hidden;
     }
     
 
