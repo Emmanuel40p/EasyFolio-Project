@@ -1,27 +1,34 @@
-:root { 
-    --background-color: #ffffff; /* Background color for the entire website, including individual sections */
-    --default-color: #0a0f14; /* Default color used for the majority of the text content across the entire website */
-    --heading-color: #0f2943; /* Color for headings, subheadings and title throughout the website */
-    --accent-color: #e87532; /* Accent color that represents your brand on the website. It's used for buttons, links, and other elements that need to stand out */
-    --surface-color: #ffffff; /* The surface color is used as a background of boxed elements within sections, such as cards, icon boxes, or other elements that require a visual separation from the global background. */
-    --contrast-color: #ffffff; /* Contrast color for text, ensuring readability against backgrounds of accent, heading, or default colors. */
-  }
-  
+:root {
+    --background-color: #ffffff;
+    /* Background color for the entire website, including individual sections */
+    --default-color: #0a0f14;
+    /* Default color used for the majority of the text content across the entire website */
+    --heading-color: #0f2943;
+    /* Color for headings, subheadings and title throughout the website */
+    --accent-color: #e87532;
+    /* Accent color that represents your brand on the website. It's used for buttons, links, and other elements that need to stand out */
+    --surface-color: #ffffff;
+    /* The surface color is used as a background of boxed elements within sections, such as cards, icon boxes, or other elements that require a visual separation from the global background. */
+    --contrast-color: #ffffff;
+    /* Contrast color for text, ensuring readability against backgrounds of accent, heading, or default colors. */
+}
 
- 
 
 
- @media  (max-width: 1440px) {
- 
- *{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
- }
+
+
+@media (max-width: 1440px) {
+
+    * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
+
     body {
-        overflow-x:hidden;
+        overflow-x: hidden;
         scroll-behavior: smooth;
-        
+
     }
 
     .navBar {
@@ -37,11 +44,13 @@
         z-index: 1200;
         position: fixed;
     }
-    .icons-headers{
+
+    .icons-headers {
         position: absolute;
-        right:10px;
+        right: 10px;
     }
-    #EasyFolio{
+
+    #EasyFolio {
         display: flex;
         position: relative;
         top: -8px;
@@ -49,23 +58,27 @@
         left: 20px;
         font-size: 25px;
     }
+
     .menuBar {
         width: 0;
         display: none;
         visibility: hidden;
     }
-    #link-tag{
-        visibility:hidden;
-    }
-    #menuBar2{
-        position: relative;
-        
-        
-    }
-    .menu_lists{
+
+    #link-tag {
         visibility: hidden;
     }
-    
+
+    #menuBar2 {
+        position: relative;
+
+
+    }
+
+    .menu_lists {
+        visibility: hidden;
+    }
+
 
     .hamburgerMenu {
         visibility: hidden;
@@ -76,9 +89,9 @@
     }
 
     .list-header {
-       
+
         font-size: 1rem;
-        display: flex; 
+        display: flex;
         margin-left: 201px;
 
     }
@@ -90,15 +103,16 @@
 
     #lists {
         list-style: none;
-        padding-left:29px ;
-                /* padding-left: 10px; */
+        padding-left: 29px;
+        /* padding-left: 10px; */
     }
 
-#links{
-    text-decoration: none;
-    color: black;
-}
-.navBarBlock {
+    #links {
+        text-decoration: none;
+        color: black;
+    }
+
+    .navBarBlock {
         position: fixed;
         width: 100%;
         height: 120px;
@@ -171,6 +185,7 @@
         margin-left: 0px;
 
     }
+
     .personImage {
         width: 520px;
         height: 340px;
@@ -180,7 +195,7 @@
         left: 630px;
         z-index: 1;
     }
-    
+
     #hero-circle {
         width: 280px;
         height: 320px;
@@ -190,9 +205,9 @@
         top: -400px;
         margin-left: 390px;
         animation: morphShape 20s linear infinite reverse;
-    
+
     }
-    
+
     #heroCircle2 {
         width: 180px;
         height: 200px;
@@ -203,8 +218,8 @@
         left: 660px;
         animation: morphShape 20s linear infinite reverse;
     }
-    
-    .experience{
+
+    .experience {
         left: 30px;
         top: 50px;
         position: relative;
@@ -212,11 +227,13 @@
         flex-direction: row;
         text-align: start;
     }
-    #aboutSection{
+
+    #aboutSection {
         position: relative;
-        top: 10px;      
-        
+        top: 10px;
+
     }
+
     #about-img1 {
         width: 40vw;
         min-width: 300px;
@@ -228,24 +245,26 @@
         top: 10px;
         box-shadow: 0px 0px 3px 3px rgb(231, 226, 226);
 
-    
+
     }
-    .aboutDiv{
+
+    .aboutDiv {
         position: absolute;
         margin-top: -240px;
-        background-color:#faf9fb;
+        background-color: #faf9fb;
         width: 100vw;
         height: 150vh;
         padding-top: 60px;
     }
-    #header-about{
+
+    #header-about {
         text-align: center;
         font-size: 39px;
         color: #915d40;
         padding-bottom: 14px;
 
     }
-    
+
     #about-svg {
         color: #e87532;
         opacity: 0.5;
@@ -255,16 +274,18 @@
         left: 43%;
     }
 
-    #about-para{
+    #about-para {
         padding-top: 30px;
         color: rgba(0, 0, 0, 0.774);
-        max-width:650px;
+        max-width: 650px;
         display: flex;
-        justify-self: center;
+        margin-left: 25vw;
+
         text-align: center;
         padding-bottom: 80px;
     }
-    .about-me-div{
+
+    .about-me-div {
         display: block;
         position: absolute;
         top: 270px;
@@ -274,133 +295,169 @@
         justify-content: left;
         text-align: start;
     }
-    #About-me{
+
+    #About-me {
         text-align: start;
         color: #e87532;
         font-size: 16px;
         font-weight: 600;
         padding-bottom: 20px;
     }
-    #about-details{
+
+    #about-details {
         font-weight: -20;
-        font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; 
-        color: #292727a6;  
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        color: #292727a6;
         line-height: 27px;
         word-spacing: 2px;
         padding-bottom: 30px;
     }
-    #PersonalInfo  #infoContainer .label .value2{
+
+    #PersonalInfo #infoContainer .label .value2 {
         font-weight: bold;
-        
+
     }
-    td{
+
+    td {
         text-align: start;
         width: 280px;
         height: 35px;
         color: rgba(0, 0, 0, 0.637);
     }
-    th{
+
+    th {
         width: 280px;
         height: 35px;
         text-align: start;
         color: #0f2943;
         font-weight: 500;
     }
-    #PersonalInfo  #infoContainer{
-       box-shadow:1px 1px 2px 2px rgba(173, 172, 172, 0.144);
-       background-color: #ffffff;
-       
-       width: 580px;
-       height: 260px;
-       padding-top:15px ;
-       padding-left: 20px;
-       border-radius: 20px;
-      position: relative;
-      left: 700px;
-      top: -290px;
+
+    #PersonalInfo #infoContainer {
+        box-shadow: 1px 1px 2px 2px rgba(173, 172, 172, 0.144);
+        background-color: #ffffff;
+
+        width: 580px;
+        height: 260px;
+        padding-top: 15px;
+        padding-left: 20px;
+        border-radius: 20px;
+        position: relative;
+        left: 700px;
+        top: -290px;
     }
-    #signature{
+
+    #signature {
         display: flex;
         margin-top: 40px;
         width: 200px;
         height: 50px;
-        padding-top:0px ;
+        padding-top: 0px;
         padding-right: 40px;
     }
 
-    .progressBar{
+    #signatureN {
+        display: flex;  
+        position: absolute;
+        left: 210px; 
+        margin-top: -39px;
+    }
+    #signatureP{
+        font-size: 25px;
+         color: #0f2943; 
+         font-weight: 500;
+          line-height: 30px;
+    }
+    #signatureT {
+        margin-left: 180px;
+         margin-top: -14px; 
+         font-size: 14px; 
+         color: rgba(0, 0, 0, 0.637);
+    }
+
+    .progressBar {
         width: 240px;
         height: 190px;
-        background-color:white ;
+        background-color: white;
         box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 30px;
         margin-top: -100px;
         border-radius: 15px;
         margin-left: 100px;
         padding-right: 20px;
-        
+
     }
 
-    .progress{
-        margin-top:20px ;
-        margin-left:20px ;
-        border-radius:15px ;
+    .progress {
+        margin-top: 20px;
+        margin-left: 20px;
+        border-radius: 15px;
         width: 90%;
         height: 8px;
         background-color: #fde5dad8;
     }
-    .progressRate{
-        margin-top:20px ;
+
+    .progressRate {
+        margin-top: 20px;
         width: 90%;
         height: 8px;
-        background-color:var(--accent-color);
-        border-radius: 15px ;
-        animation: progressRates 1.8s alternate linear   ;
+        background-color: var(--accent-color);
+        border-radius: 15px;
+        animation: progressRates 1.8s alternate linear;
     }
-    
+
     @keyframes progressRates {
         0% {
             width: 0%;
         }
+
         25% {
             width: 25%;
         }
+
         50% {
             width: 50%;
         }
+
         75% {
             width: 70%;
         }
+
         90% {
             width: 90%;
         }
     }
-    #resume-section{
+
+    #resume-section {
         width: 100vw;
-        height: 800px;
+        height: 900px;
         position: relative;
         margin-top: 60em;
-        
+
     }
-    #about-svg{
+
+    #about-svg {
         width: 200px;
     }
-    #resume-headerText{
+
+    #resume-headerText {
         font-size: 40px;
-        color:#915d40 ;
         text-align: center;
+        background: linear-gradient(to right, #0f2943, #e87532);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
         padding-top: 110px;
     }
 
-    #R-text{
+    #R-text {
         text-align: center;
         margin-top: 30px;
         max-width: 680px;
         line-height: 35px;
         margin-left: 25%;
-        color:#0a0f14;
+        color: #0a0f14;
     }
 
-    .work-experience{
+    .work-experience {
         font-size: 32px;
         padding-left: 120px;
         color: var(--heading-color);

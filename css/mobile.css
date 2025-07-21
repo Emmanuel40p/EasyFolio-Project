@@ -25,7 +25,7 @@
      .navBar {
         margin-top: 20px;
         padding-top: 20px;
-        height: 9vh;
+        height: 60px;
         margin-left: 0px;
         z-index: 1200;
         display: flex;
@@ -38,6 +38,7 @@
     }
     .navBarBlock{
         height: 90px;
+        width: 100%;
     }
     #EasyFolio{
         display: flex;
@@ -154,7 +155,7 @@
        max-height: 40vh;
        position: absolute;
         margin-left: -630px;
-        margin-top: 110vh;
+        margin-top: 45rem;
 
        }
        
@@ -179,62 +180,73 @@
         
     }
     #header-about{
-        margin-left: 1vw;
+        margin-left: 20px;
        margin-top: -30px;
     }
    #about-svg{
-        margin-left: -10vw; 
+        margin-left:-60px; 
    }
+   
    #about-para{
-    padding-left: 10px;
+    margin-left: 9px;
     padding-right: 10px;
     line-height: 30px;
-    max-width: 400px;
+    max-width: 90vw;
    }
    #about-img1{
     width: 90vw;
     max-height: 75vh;
     margin-left: -89px;
     margin-top: -40px;
-    
+    margin-bottom: 30px;
+    position: relative;
    }
+
 
    #ui-ux-text{
     max-width: 83vw;
     font-size: 23px;
-    margin-left: -5px;
-    margin-right: -200px;
+    margin-left: -40;
+    margin-left: -4vw;
     font-weight: 200;
    }
    .about-me-div{
-    display: block;
+    
     margin-left: -43em;
-    margin-top: 26em;
+    margin-top: 95%;
     padding-left: 10px;
     padding-right: 10px;
     max-width: 97vw;
     max-height:20vh ;
     
    }
-
+   #About-me{
+    position: relative;
+    margin-top: 10%;
+    margin-left: -5%;
+   }
    
    #about-details{
     margin-top: 10px;
-    margin-left: -7px;
+    margin-left: -4%;
+    /* padding-left: 30px; */
     margin-bottom: -30px;
     font-size: 16px;
     max-width:95vw;
+    margin-right: 10px;
     line-height: 30px;
    }
   #neque{
     font-weight: 400;
     font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
      color: #000 ;
-     margin-left: -10px;
+     margin-left: -12px;
      padding-top: 19px;
+     max-width: 90vw;
+     position: absolute;
   }
    .aboutDiv{
-    height: 225vh;
+    height: 235vh;
    }
    #about-details-div{
     /* max-width: 900px; */
@@ -242,14 +254,16 @@
    }
 
    #PersonalInfo  #infoContainer{
-    margin-left: -43em;    
+    margin-left: -44em;    
     width: 93vw;
     height: 280px;
-    margin-top: 40em;
+    
+    margin-top: 45em;
 } 
     td{
     line-height: 40px;
-    
+    font-size: 14px;
+
 }
 th,td {
     padding-left: 20px;
@@ -257,35 +271,179 @@ th,td {
 #signature{
     width: 150px;
     height: 40px;
-    margin-left: -20px;
+    margin-left: -10px;
 
 }
-.progressBar{
-    margin-top: -10em;
-    display: block;
+#signatureP{
+    font-size: 20px;
+     color: #0f2943; 
+     font-weight: 500;
+      line-height: 30px;
+}
+#signatureN {
+    display: flex;  
+    
+    position: absolute;
+    left: 200px; 
+    margin-top: -39px;
+}
 
+#signatureT {
+    margin-left: 180px;
+     margin-top: -14px; 
+     font-size: 14px; 
+     color: rgba(0, 0, 0, 0.637);
+}
+
+.progressBar{
+    
+    display: block;
+    
+    
    }
 
    #resume-section{
     margin-top: 90em;
    }
-   .progressContainer{
-    position: relative;
-    display: grid;
-    grid-template-rows: 250px 300px;
-    grid-template-columns: 350px ;
-    
-   }
+   
    .htmlBar{
-    width: 90vw;
+    width: 85vw;
     height: 150px;
-    margin-left: 14px;
+    left: -5rem;
     margin-top: -7em;
+    display: block;
+    position: relative;
+   }
+   .progress{
+    margin-top: -12px;
    }
    .cssBar{
-    width: 90vw;
+    width: 85vw;
     height: 150px;
-    margin-left:100px ;
+    left: -22.5rem;
+    top: 13em;
+    display: block;
+    position: relative;
+
     /* margin-top: 1em; */
    }
+   .JavascriptBar{
+    width: 85vw;
+    height: 150px;
+    left: -40rem;
+    top: 26em;
+    display: block;
+    position: relative;
+   }
+   .PhotoshopBar{
+    width: 85vw;
+    height: 150px;
+    left: -57.3rem;
+    top: 39rem;
+    display: block;
+    position: relative;
+   }
+   #resume-section{
+    position: relative;
+    top: 30rem;
+    left: -2rem;
+   }
+
+   #R-text{
+    margin-left: 1rem;
+    padding-left: 10px;
+   }
+   .work-experience{
+    margin-top: 4rem;
+    margin-left: -5.5rem;
+   }
+   .work-experience1{
+    line-height: 30px;
+    margin-left: -5rem;
+    color: rgb(100, 99, 99);
+    font-weight: 300;
+    font-size:20px ;
+}
+.sideline{
+    width: 2px;
+    height: 51em;
+    margin-left: 3em;
+    position: absolute;
+    margin-top: 33px;
+    background-color:#e8753231;
+}
+.sideline .side-circle{
+    width: 17px;
+    height: 17px;
+    border-radius: 50%;
+    margin-left: -8px;
+    background-color: var(--accent-color);
+}
+.work-details1 h4 {
+    font-size: 19px;
+    color: var(--heading-color);
+    line-height: 39px;
+}
+.work-details1 {
+    margin-left: 5em;
+    margin-top: 20px;
+}
+.work-details1 p{
+    font-weight: 300;
+    color: rgb(100, 99, 99);
+    font-size: 17px;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.side-circle2{
+   width: 17px;
+   height: 17px;
+   background-color: #e87532;
+   border-radius: 50%;
+   margin-left: 40px;
+   position: absolute;
+   margin-top: 23px;
+   margin-top: 35px;
+}
+.work-details2{
+    margin-left: 5em;
+    margin-top: 25px;
+
+}
+.work-details2 h4 {
+    font-size: 19px;
+    color: var(--heading-color);
+    line-height: 38px;
+}
+.work-details2 p{
+    font-weight: 200;
+    color: rgb(75, 73, 73);
+    font-size: 17px;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+#workList{
+    margin-left: 20px;
+    color: black ; 
+    margin-top: 20px;   
+    word-spacing: 2px;
+    line-height: 25px;  
+}
+#workList li{
+    margin-bottom: 10px;
+}
+
+.MyEducation {
+   margin-left: 40px;
+   margin-top: 2em;
+   font-size: 35px;
+   color: #02101f;
+}
+#edu {
+    margin-left: 40px;
+    margin-top: 10px;
+    line-height: 150%;
+    font-size: 20px;
+    font-weight: 100;
+    color:rgb(75, 73, 73);
+}
+
 }
