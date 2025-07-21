@@ -5,10 +5,10 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>EasyFolio</title>
-  <link rel="stylesheet" href="index.css">
+  <link rel="stylesheet" href="css/index.css">
 
-  <link rel="stylesheet" href="mediaQueries.css">
-  <link rel="stylesheet" href="mobile.css">
+  <link rel="stylesheet" href="css/mediaQueries.css">
+  <link rel="stylesheet" href="css/mobile.css">
   <link rel="shortcut icon" href="favicon/favicon.png" type="image/x-icon">
 </head>
 
@@ -59,7 +59,7 @@
 
       <div class="icons-headers">
 
-        <a href="#"> <img src="icons/icons8-x-30.png" alt="" width="18px" height="18px" class="icons"></a>
+        <a href="https://github.com/dashboard" target="_blank"> <img src="icons/icons8-x-30.png" alt="" width="18px" height="18px" class="icons"></a>
         <a href="#"> <img src="/icons/facebook.png" alt="" width="18px" height="18px" class="icons"></a>
         <a href="#"> <img src="/icons/png_bypqu.png" alt="" width="18px" height="18px" class="icons"></a>
         <a href="#"> <img src="/icons/png_wixx3.png" alt="instagram" width="18px" height="18px" class="icons"></a>
@@ -88,13 +88,14 @@
         </div>
         <span class="experience">
           <p id="expText"><span id="years">5+</span> <br> <span class="inlineText">Years Experience</span></p>
-          <p id="expText"><span id="projects-comp">100+</span> <br><span class="inlineText">Projects Completed </span></p>
+          <p id="expText"><span id="projects-comp">100+</span> <br><span class="inlineText">Projects Completed </span>
+          </p>
           <p id="expText"><span id="Happy">50+</span> <br> <span class="inlineText">Happy Clients </span></p>
 
         </span>
         <div id="hero-circle"></div>
-        <div class="personImage">
-          <img src="icons/profile-1.webp" alt="portfolio-image hero">
+        <div class="personImageDiv">
+          <img class="personImage" src="icons/profile-1.webp" alt="portfolio-image hero"  >
         </div>
         <div id="heroCircle2"> </div>
       </div>
@@ -125,7 +126,7 @@
         </div>
         <div class="about-me-div">
           <p id="About-me">About Me</p>
-          <p style="font-size: 28px; font-weight: 700; color: #0f2943 ; padding-bottom: 30px;" id="ui-ux-text">UI/UX
+          <p style="font-size: 28px; font-weight: 700; color: #0f2943 ;" id="ui-ux-text">UI/UX
             DESIGNER & WEB DEVELOPER</p>
 
           <div id="about-details-div">
@@ -133,9 +134,8 @@
               Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur
               magni dolores eos qui ratione voluptatem sequi nesciunt.</p>
 
-            <p
-              style="font-weight: 400; font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; color: #000 ;  ">
-              Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet
+            <p  id="neque">
+              Neque porro quisquam est, qui dolorem ipsum qsuia dolor sit amet
             </p>
           </div>
 
@@ -144,112 +144,114 @@
         <article id="PersonalInfo">
           <div id="infoContainer">
             <table>
-              <tr id="column-1">
+              <tr id="column-head">
                 <td>Name</td>
                 <td>Phone</td>
 
               </tr>
 
-              <tr id="column-2">
+              <tr class="column-details">
                 <th>Eliot Johnson</th>
                 <th>+123 456 7890</th>
 
               </tr>
 
-              <tr id="column-3">
+              <tr id="column-head">
                 <td>Age</td>
                 <td>Email</td>
               </tr>
 
-              <tr id="column-3">
+              <tr class="column-details">
                 <th>26 Years</th>
                 <th>email@example.com</th>
               </tr>
 
-              <tr id="column-4">
+              <tr id="column-head">
                 <td>Occupation</td>
                 <td>Nationality</td>
               </tr>
 
 
-              <tr id="column-5">
+              <tr class="column-details">
                 <th>Lorem Engineer</th>
                 <th>Ipsum</th>
               </tr>
 
             </table>
 
-            <span id="signature"> <img src="/icons/signature-1.webp" alt="signature" width="180px" height="50px">
+            <span> <img id="signature" src="/icons/signature-1.webp" alt="signature">
             </span>
             <span style="display: flex;  position: absolute; left: 210px; margin-top: -39px;">
-              <p style="font-size: 20px; color: #0f2943; font-weight: 500;"> Eliot Johnson </p>
+              <p style="font-size: 25px; color: #0f2943; font-weight: 500; line-height: 30px;"> Eliot Johnson </p>
             </span>
-            <p style="margin-left: 180px; margin-top: -14px; font-size: 14px; color: rgba(0, 0, 0, 0.637);">Adipiscing
+            <p style="margin-left: 180px; margin-top: -14px; font-size: 14px; color: rgba(0, 0, 0, 0.637); ">Adipiscing
               Elit, Lorem Ipsum</p>
           </div>
         </article>
         <!-- PROGRESS BAR ---------HTML----------------------------------------- -->
-        <div class="progressBar">
-          <p
-            style=" padding-bottom: 10px;padding-left: 20px; padding-top: 20px;font-size: 20px; font-weight:bold; color:#0f2943">
-            HTML <br></p>
-          <p style="padding-left: 20px;font-size: 13px; color: rgba(0, 0, 0, 0.637) ;line-height: 24px;">Sed ut
-            perspiciatis unde omnis iste natus error sit voluptatem.
+        <div class="progressContainer">
+          <div class="progressBar htmlBar">
+            <p
+              style=" padding-bottom: 10px;padding-left: 20px; padding-top: 20px;font-size: 20px; font-weight:bold; color:#0f2943">
+              HTML <br></p>
+            <p style="padding-left: 20px;font-size: 13px; color: rgba(0, 0, 0, 0.527) ;line-height: 24px;">Sed ut
+              perspiciatis unde omnis iste natus error sit voluptatem.
 
-          <p style="text-align: end; padding-top: 5px;">90%</p>
-          </p>
-          <div class="progress">
-            <div class="progressRate"></div>
+            <p style="text-align: end; padding-top: 5px;">90%</p>
+            </p>
+            <div class="progress">
+              <div class="progressRate"></div>
+            </div>
+          </div>
+
+
+          <!-- PROGRESS BAR ---------CSS----------------------------------------- -->
+          <div class="progressBar cssBar" style="margin-left: 380px; margin-top: -190px; ">
+            <p
+              style=" padding-bottom: 10px;padding-left: 20px; padding-top: 20px;font-size: 20px; font-weight:bold; color:#0f2943">
+              CSS <br></p>
+            <p style="padding-left: 20px;font-size: 13px; color: rgba(0, 0, 0, 0.637) ;line-height: 24px;">Nemo enim
+              ipsam
+              voluptatem quia voluptas sit aspernatur.
+
+            <p style="text-align: end; padding-top: 5px;">90%</p>
+            </p>
+            <div class="progress">
+              <div class="progressRate"></div>
+            </div>
+          </div>
+
+          <!-- PROGRESS BAR ---------JAVASCRIPT----------------------------------------- -->
+          <div class="progressBar" style="margin-left: 660px; margin-top: -190px; ">
+            <p
+              style=" padding-bottom: 10px;padding-left: 20px; padding-top: 20px;font-size: 20px; font-weight:bold; color:#0f2943">
+              Javascript <br></p>
+            <p style="padding-left: 20px;font-size: 13px; color: rgba(0, 0, 0, 0.637) ;line-height: 24px;">Neque porro
+              quisquam est qui dolorem ipsum quia dolor.
+
+            <p style="text-align: end; padding-top: 5px;">80%</p>
+            </p>
+            <div class="progress">
+              <div class="progressRate" style="width: 80%;"></div>
+            </div>
+          </div>
+
+
+          <!-- PROGRESS BAR --------- PHOTOSHOP----------------------------------------- -->
+          <div class="progressBar" style="margin-left: 937px; margin-top: -190px; height: 210px; width: 237px;">
+            <p
+              style=" padding-bottom: 10px;padding-left: 20px; padding-top: 20px;font-size: 20px; font-weight:bold; color:#0f2943">
+              Photoshop <br></p>
+            <p style="padding-left: 20px;font-size: 13px; color: rgba(0, 0, 0, 0.637) ;line-height: 24px;">
+              Quis autem vel eum iure reprehenderit qui in ea voluptate.
+
+            <p style="text-align: end; padding-top: 5px;">55%</p>
+            </p>
+            <div class="progress" style="width: 90%;">
+              <div class="progressRate" style="width: 55%;"></div>
+            </div>
           </div>
         </div>
-
-
-        <!-- PROGRESS BAR ---------CSS----------------------------------------- -->
-        <div class="progressBar" style="margin-left: 380px; margin-top: -190px; ">
-          <p
-            style=" padding-bottom: 10px;padding-left: 20px; padding-top: 20px;font-size: 20px; font-weight:bold; color:#0f2943">
-            CSS <br></p>
-          <p style="padding-left: 20px;font-size: 13px; color: rgba(0, 0, 0, 0.637) ;line-height: 24px;">Nemo enim ipsam
-            voluptatem quia voluptas sit aspernatur.
-
-          <p style="text-align: end; padding-top: 5px;">90%</p>
-          </p>
-          <div class="progress">
-            <div class="progressRate"></div>
-          </div>
-        </div>
-
-        <!-- PROGRESS BAR ---------JAVASCRIPT----------------------------------------- -->
-        <div class="progressBar" style="margin-left: 660px; margin-top: -190px; ">
-          <p
-            style=" padding-bottom: 10px;padding-left: 20px; padding-top: 20px;font-size: 20px; font-weight:bold; color:#0f2943">
-            Javascript <br></p>
-          <p style="padding-left: 20px;font-size: 13px; color: rgba(0, 0, 0, 0.637) ;line-height: 24px;">Neque porro
-            quisquam est qui dolorem ipsum quia dolor.
-
-          <p style="text-align: end; padding-top: 5px;">80%</p>
-          </p>
-          <div class="progress">
-            <div class="progressRate" style="width: 80%;"></div>
-          </div>
-        </div>
-
-
-        <!-- PROGRESS BAR --------- PHOTOSHOP----------------------------------------- -->
-        <div class="progressBar" style="margin-left: 937px; margin-top: -190px; height: 210px; width: 237px;">
-          <p
-            style=" padding-bottom: 10px;padding-left: 20px; padding-top: 20px;font-size: 20px; font-weight:bold; color:#0f2943">
-            Photoshop <br></p>
-          <p style="padding-left: 20px;font-size: 13px; color: rgba(0, 0, 0, 0.637) ;line-height: 24px;">
-            Quis autem vel eum iure reprehenderit qui in ea voluptate.
-
-          <p style="text-align: end; padding-top: 5px;">55%</p>
-          </p>
-          <div class="progress" style="width: 90%;">
-            <div class="progressRate" style="width: 55%;"></div>
-          </div>
-        </div>
-
 
       </div>
 
@@ -257,26 +259,28 @@
     </section>
 
 
-<br>
+    <br>
     <section id="resume-section">
       <h2 id="resume-headerText">Resume</h2>
 
       <div class="aboutDesign">
         <svg viewBox="0 0 200 20" xmlns="http://www.w3.org/2000/svg" id="about-svg">
-          <path d="M 0,10 C 40,0 60,20 100,10 C 140,0 160,20 200,10" fill="none" stroke="currentColor"
-            stroke-width="2"></path>
+          <path d="M 0,10 C 40,0 60,20 100,10 C 140,0 160,20 200,10" fill="none" stroke="currentColor" stroke-width="2">
+          </path>
         </svg>
       </div>
-      <p id="R-text">Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur vel illum qui dolorem
+      <p id="R-text">Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae
+        consequatur vel illum qui dolorem
       </p>
       <h2 class="work-experience">Work Experience</h2>
-      <p  style="padding-left: 120px;" >Maecenas tempus tellus eget condimentum rhoncus sem quam semper libero sit amet adipiscing sem neque sed ipsum.</p>
+      <p style="padding-left: 120px;">Maecenas tempus tellus eget condimentum rhoncus sem quam semper libero sit amet
+        adipiscing sem neque sed ipsum.</p>
 
 
 
 
 
-      
+
 
 
 
@@ -285,11 +289,12 @@
 
 
     </section>
-    
 
 
 
-    <a href="#" ><button style="left: 90em;top: 40em; display: flex;position: fixed; align-items: center; justify-content: center; z-index: 9999; background-color:#e87532 ;width: 50px; height: 50px; border-radius: 60%; ">top</button></a>
+
+    <a href="#"><button
+        style="left: 90em;top: 40em; display: flex;position: fixed; align-items: center; justify-content: center; z-index: 9999; background-color:#e87532 ;width: 50px; height: 50px; border-radius: 60%;  ">⬆⬆</button></a>
 
 
 
